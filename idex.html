@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="styleArm.css">
+
+<!-- اهذا الي انا شغاله عليها
+
+-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+
+<h1>لوحة التحكم بالروبوت</h1>
+<br>
+<div class="slidecontainer">
+  <p>:المحرك الاول </p>
+  <input type="range" min="0" max="180" value="" class="slider" id="FirstRange">
+  <p class="myvalue">  Value: <span id="demo"></span></p>
+</div>
+
+<script>
+
+  var FirstSliderRange = document.getElementById("FirstRange");
+      var Firstoutput = document.getElementById("demo");
+      Firstoutput.innerHTML = FirstSliderRange.value;
+      
+      FirstSliderRange.oninput = function() {
+        Firstoutput.innerHTML = this.value;
+      }
+  
+  
+  </script>
+
+<div class="slidecontainer">
+  <p>:المحرك الثاني </p>
+  <input type="range" min="0" max="180" value="" class="slider" id="SecondRange">
+  <p class="myvalue">Value: <span id="seconddemo"></span></p>
+</div>
+<script>
+
+  var SecondSliderRange = document.getElementById("SecondRange");
+      var Secondoutput = document.getElementById("seconddemo");
+      Secondoutput.innerHTML = SecondSliderRange.value;
+      
+      SecondSliderRange.oninput = function() {
+        Secondoutput.innerHTML = this.value;
+      }
+  
+  
+  </script>
+
+<div class="slidecontainer">
+  <p>:المحرك الثالث </p>
+  <input type="range" min="0" max="180" value="" class="slider" id="ThirdRange">
+  <p class="myvalue">  Value: <span id="Thirddemo"></span></p>
+</div>
+<script>
+
+  var ThirdSliderRange = document.getElementById("ThirdRange");
+      var Thirdoutput = document.getElementById("Thirddemo");
+      Thirdoutput.innerHTML = ThirdSliderRange.value;
+      
+      ThirdSliderRange.oninput = function() {
+        Thirdoutput.innerHTML = this.value;
+      }
+  
+  
+  </script>
+
+<div class="slidecontainer">
+  <p>:المحرك الرابع </p>
+  <input type="range" min="0" max="180" value="" class="slider" id="FourthRange">
+  <p class="myvalue">Value: <span id="Fourthdemo"></span></p>
+</div>
+
+<script>
+
+  var FourthSliderRange = document.getElementById("FourthRange");
+      var Fourthoutput = document.getElementById("Fourthdemo");
+      Fourthoutput.innerHTML = FourthSliderRange.value;
+      
+      FourthSliderRange.oninput = function() {
+        Fourthoutput.innerHTML = this.value;
+      }
+  
+  
+  </script>
+
+
+<div class="slidecontainer">
+  <p>:المحرك الخامس </p>
+  <input type="range" min="0" max="180" value="" class="slider" id="FifthRange">
+  <p class="myvalue">  Value: <span id="Fifthdemo"></span></p>
+</div>
+
+<script>
+var FifthSliderRange = document.getElementById("FifthRange");
+      var Fifthoutput = document.getElementById("Fifthdemo");
+      Fifthoutput.innerHTML = FifthSliderRange.value;
+      
+      FifthSliderRange.oninput = function() {
+        Fifthoutput.innerHTML = this.value;
+      }
+      </script>
+
+<div class="slidecontainer">
+  <p>:المحرك السادس </p>
+  <input type="range" min="0" max="180" value="" class="slider" id="LastRange">
+  <p class="myvalue">Value: <span id="Lastdemo"></span></p>
+</div>
+<script>
+  var LastSliderRange = document.getElementById("LastRange");
+        var Lastoutput = document.getElementById("Lastdemo");
+        Lastoutput.innerHTML = LastSliderRange.value;
+        
+        LastSliderRange.oninput = function() {
+          Lastoutput.innerHTML = this.value;
+        }
+        </script>
+
+ 
+
+
+  <button type="button" class=btn> </i> حفظ</button> 
+
+  <button type="button" class="btn"> </i> تشغيل</button> 
+
+
+
+
+
+
+</body>
+</html>
