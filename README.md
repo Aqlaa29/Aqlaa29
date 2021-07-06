@@ -1,4 +1,4 @@
-- 👋 Hi, I’m AQLAA 
+- 👋 Hi, I’m Aqlaa
 - 👀 I’m interested in front end developing..
 - 🌱 I’m currently learning  html, css , also sql, python...
 - 💞️  I will get better experince soon 
